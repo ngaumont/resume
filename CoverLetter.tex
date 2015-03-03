@@ -1,0 +1,110 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2010 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper]{moderncv}
+\usepackage{bibentry}
+\usepackage[T1]{fontenc}
+\usepackage{color}
+%\usepackage[]{babel}
+% moderncv themes
+\moderncvtheme[green]{classic}
+\usepackage[utf8]{inputenc}
+
+
+% adjust the page margins
+\usepackage[scale=0.92]{geometry}
+
+\firstname{Noé}
+\familyname{Gaumont}
+\title{Ph.D. student at Université Pierre et Marie Curie} 
+%\extrainfo{Permis B}
+
+\address{13 rue Gustave Simonet}{ 94200 Ivry-sur-Seine} % optional, remove the line
+%if not wanted
+\mobile{06.77.79.86.28} % optional, remove the line if not
+%wanted
+
+\email{noe.gaumont@lip6.fr}
+%\photo[72pt]{"image"}
+
+
+\nopagenumbers{} 
+
+\begin{document}
+\maketitle
+\vspace{-1.2cm}
+
+\section{Professional Experience}
+\cventry{Since October 2013} {Ph.D. student} {Université Pierre et Marie Curie}{}{in the ComplexNetwork team, LIP6}
+{
+\textit{Subject}: Community detection in link streams. Link stream provide a new way to understand temporal networks.
+A link stream is a sequence of timed interactions between two entities, like email exchanges.
+In this context, a community should be a dense sub-stream, \emph{e.g.} a discussion instead of a group of
+friends in the case of mails.
+}
+\vspace*{0.2cm}
+\cventry{Feb 2013 - July 2013}{Internship}{Thales Air System in the Innovation Lab}{Rungis}{}{Study and optimization of flight plan predictions on specific way-points.\newline \textit{Key concepts:} machine learning, data extrapolation. \textit{Languages:} C++, R.}%
+
+\cventry{Sept 2011 - Feb 2012}{Internship}{Commissariat à l'énergie atomique (\textbf{CEA})}{Brétigny-sur-Orge}{}{Creation of an algorithm able to generate quadrilateral mesh under a vector field constraint and geometric constraints.
+\textit{Key concepts}: paving mesh generation, finite element. \textit{Language}: C++.}
+
+%\cventry{Jan 2009 - Feb 2009}{Worker internship}{Sealed Air - quality department}{\'Epernon}{}{Product control within the scope of quality check and communication with clients.\newline}%
+
+%\cvline{April 2010 - Aug 2010}{Exchange program in Germany at the Technische Universität Hamburg-Harburg (TUHH).\newline Introduction to the finite element method and to the structural aspect of planes.}
+
+\section{Education}
+\cventry{Sept 2008 - July 2013}{Engineering school}{Université de Technologie de Compiègne}{}{in Computer Science}
+{IT project examples carried out during my university training:
+\begin{itemize}\renewcommand{\labelitemi}{$\; \; \; \; \;   \circ$}	
+	\item Development in C++ of meta-heuristics to solve the 2D bin packing problem under guillotine constraints.
+	\item Development of the simplex algorithm in scilab.
+	\item Decentralized chess game developed in Java with a group of \textit{23} people.
+	%\item Development of a Gephi plugin to solve the multi-source vehicle routing problem with heuristics.
+	\item Conception of a Tower Defense game in C++ and Qt.\newline
+\end{itemize}
+}
+\cvline{June 2008}{\textbf{Baccalauréat S}, mathematics specialty, with honors in lycée \textsl{Fulbert} in Chartres.}
+
+\section{Technical skills}
+
+\cvline{Mathematics}{Graph theory, mathematical optimization, meta-heuristics, constrained programming,\newline Markov chain, distributed algorithm, basics in cryptography.}
+
+\cvline{Computer}{ \vspace*{-0.25cm}
+\begin{description}
+\item[Programming:]{C++, Python, Prolog, Lisp,  PostgreSQL. Exploring: Rust and Scala.}
+\item[Web:]{(x)HTML, JavaScript, CSS, PHP.}
+\item[Software:]{Git/svn, Gephi/Tulip, Scilab, Prelude ERP, Witness.}
+\item[Other:]{Agile software development, UML modeling, Linux server administration, \LaTeX.}
+\end{description}\vspace*{-0.55cm}
+}
+
+\bibliographystyle{plain}
+\bibliography{library.bib}
+\bibentry{Gaumont2015}
+\bibentry{Gaumont2014}
+%\bibliographystyle{apalike}
+%\bibliography{my.bib}
+
+%\section{teaching}
+%\cvline{bla bla}{blabla}
+
+
+\section{Language skills}
+%\cvline{French}{Mother tongue}{}
+\cvline{English}{European level C1. Good working knowledge.\newline $\circ$ \textit{TOEIC score in 2012: 960/990}.}
+\cvline{German}{European level B2. Reasonable working knowledge.}{}
+
+
+\section{Interests}
+\cvline{}{\small Open-source software (Mozilla), strong involvement in association, sport(bouldering, badminton), video-game.}
+
+
+\end{document}
+
+
+%% end of file `template_en.tex'.
